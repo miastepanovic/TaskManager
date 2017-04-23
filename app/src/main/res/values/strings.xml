@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">"Task Manager "</string>
+    <string name="noviZadatak">"NOVI ZADATAK"</string>
+    <string name="statistika">"STATISTIKA"</string>
+    <string name="najvaznije">"NAJVAŽNIJE"</string>
+    <string name="vazno">"VAŽNO"</string>
+    <string name="manjeVazno">"MANJE VAŽNO"</string>
+    <string name="dodaj">"DODAJ"</string>
+    <string name="otkazi">"OTKAŽI"</string>
+    <string name="sacuvaj">"SAČUVAJ"</string>
+    <string name="obrisi">"OBRIŠI"</string>
+    <string name="task">"task"</string>
+    <string name="long_klik">"long_klik"</string>
+    <string name="danas">"Danas"</string>
+    <string name="sutra">"Sutra"</string>
+    <string name="prekosutra">"Prekosutra"</string>
+    <string name="ponedeljak">"Ponedeljak"</string>
+    <string name="utorak">"Utorak"</string>
+    <string name="sreda">"Sreda"</string>
+    <string name="četvrtak">"Četvrtak"</string>
+    <string name="petak">"Petak"</string>
+    <string name="subota">"Subota"</string>
+    <string name="nedelja">"Nedelja"</string>
+
+
+
+
+</resources>

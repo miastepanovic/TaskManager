@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ra129_2014.com.example.student.taskmanager.ActivityAdd"
+    android:fillViewport="true"
+    android:fadeScrollbars="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="6"
+        android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/linearLayout1">
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/e1"
+            android:hint="Ime zadatka"
+            android:textAlignment="center"
+            android:textColor="@color/newColor"
+            android:textColorHint="@color/newColor">
+
+        </EditText>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/linearLayout2">
+
+    <DatePicker
+        android:id="@+id/simpleDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false">
+
+    </DatePicker>
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:id="@+id/simpleTimePicker"
+        >
+
+    </TimePicker>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/linearLayout3"
+        android:layout_below="@+id/linearLayout2"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/e2"
+            android:hint="Opis zadatka"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:textAlignment="center"
+            android:textColor="@color/newColor"
+            android:textColorHint="@color/newColor">
+
+        </EditText>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/linearLayout4"
+        android:layout_below="@+id/linearLayout3"
+        android:paddingTop="30dp">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/check1">
+         </CheckBox>
+
+        <CheckedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/check2"
+            android:text="Podseti me 15 minuta pre isteka roka"
+            android:textColor="@color/newColor">
+
+        </CheckedTextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:id="@+id/linearLayout5"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_above="@+id/linearLayout6"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/b5"
+            android:layout_weight="1"
+            android:text="@string/najvaznije"
+            android:backgroundTint="@android:color/holo_red_light">
+
+        </Button>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/b6"
+            android:layout_weight="1"
+            android:text="@string/vazno"
+            android:backgroundTint="@android:color/holo_orange_light" >
+         </Button>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/b7"
+            android:layout_weight="1"
+            android:text="@string/manjeVazno"
+            android:backgroundTint="@android:color/holo_green_light">
+        </Button>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:id="@+id/linearLayout6">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/dodaj"
+            android:id="@+id/b3"
+            android:backgroundTint="@color/colorPrimary">
+
+         </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/otkazi"
+            android:id="@+id/b4"
+            android:backgroundTint="@color/colorPrimary">
+
+         </Button>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
